@@ -26,5 +26,29 @@
   "wu": {
     "md5": "1d465526669b7711e6b78f1318a10623",
     "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202606180944/ex/wu"
+  },
+  "arm64-v8a-ubuntu.7z": {
+    "md5": "e034571371f9641c5cb95d39de3c391b",
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202606190901/arm64-v8a/ubuntu.7z"
+  },
+  "arm64-v8a-hermes.7z": {
+    "md5": "047a0b9850f46de967d97e9c1f0bcc9b",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.06.19-0901/arm64-v8a-hermes.7z"
+  },
+  "arm64-v8a-node_modules.7z": {
+    "md5": "8da9c760718a4df9334266dd9854045b",
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202606190901/arm64-v8a/node_modules.7z"
+  },
+  "x86_64-ubuntu.7z": {
+    "md5": "992a63aa6c37db663ff1321a203df59f",
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202606190901/x86_64/ubuntu.7z"
+  },
+  "x86_64-hermes.7z": {
+    "md5": "ab961800454cbf839a06eb7bb43b5b24",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.06.19-0901/x86_64-hermes.7z"
+  },
+  "x86_64-node_modules.7z": {
+    "md5": "874087f54128abdd4ef7621cf8781dbc",
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202606190901/x86_64/node_modules.7z"
   }
 }
