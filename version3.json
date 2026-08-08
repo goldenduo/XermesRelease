@@ -24,12 +24,12 @@
     }
   },
   "arm64-v8a-ubuntu.7z": {
-    "md5": "b71a16052409d89337bbf6de374ba17f",
-    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202608061638/arm64-v8a/ubuntu.7z"
+    "md5": "a991a0939f4072652437c47a2ad058e1",
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202608081754/arm64-v8a/ubuntu.7z"
   },
   "arm64-v8a-lite.7z": {
-    "md5": "6e45486e07c70266e2518a6ec0e6cde8",
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.06-sshfix-1747/arm64-v8a-lite.7z"
+    "md5": "4fc6a1764c3573d6457cf4111bfec0e2",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.08-1754/arm64-v8a-lite.7z"
   },
   "arm64-v8a-standard.7z": {
     "md5": "ff9939063c4101631f24fa5659d74339",
