@@ -2,8 +2,9 @@
   "schemaVersion": 4,
   "product": "opencode-android",
   "runtime": {
-    "name": "OpenCode",
+    "name": "OpenCode + Web UI",
     "version": "v1.18.21",
+    "webUiVersion": "1.20.0",
     "architecture": "arm64-v8a",
     "incrementalLayers": true
   },
@@ -15,7 +16,10 @@
       ],
       "artifact": "lite.7z",
       "features": [
-        "opencode-web",
+        "opencode",
+        "web-ui",
+        "node-22",
+        "cloudflare-quick-tunnel",
         "ssh",
         "git",
         "curl",
@@ -30,8 +34,6 @@
       ],
       "artifact": "standard.7z",
       "features": [
-        "node",
-        "npm",
         "mcp-core",
         "playwright-api"
       ]
@@ -51,27 +53,27 @@
     }
   },
   "arm64-v8a-ubuntu.7z": {
-    "md5": "b91e8c4d3053e4dbe40b3a6b6aebc2cd",
-    "sha256": "01b2278c7380574c5707661c3653a2104e762653482211fe9e58d3a643a18626",
-    "size": 22069431,
-    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202608240912/arm64-v8a/ubuntu.7z"
+    "md5": "3b4454efa0b48dbece6708e5a461b24c",
+    "sha256": "74e960c47726dcc4f0c95e7fc0a5740285c1e3a6c093432e2ae67070a8a37398",
+    "size": 22069273,
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202608242118/arm64-v8a/ubuntu.7z"
   },
   "arm64-v8a-lite.7z": {
-    "md5": "3bb1172a9f1c65b2501071394c649006",
-    "sha256": "fee6d2408b52c3d460c0bec75d87e53368e8a13fc6e5819e230680d110bb3edb",
-    "size": 168538042,
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-opencode1/arm64-v8a-lite.7z"
+    "md5": "9008683f2ce91c58f2653fe9d0ab545b",
+    "sha256": "491c7757b21451666521ee094df0eed89716c155cb9c106b653869ecd5627250",
+    "size": 288732090,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-2118/arm64-v8a-lite.7z"
   },
   "arm64-v8a-standard.7z": {
-    "md5": "39fbec2a6e914fffc4239d26bf2c0941",
-    "sha256": "5b7e5919034fcc4dcf6d27066eb1d95264b4f455fcce4bd682f0e63c5ae17226",
-    "size": 262461168,
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-opencode1/arm64-v8a-standard.7z"
+    "md5": "2950a2d5afe2f9a0069685366993e675",
+    "sha256": "011043f3689ec7eef897b5ec2dd669cf1448614e526f83208cab64b1ecead844",
+    "size": 304408348,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-2118/arm64-v8a-standard.7z"
   },
   "arm64-v8a-full.7z": {
-    "md5": "31ff9e2d870d49c8cc95716e79952a72",
-    "sha256": "90c5c121a8bffb9057b330822d0acbf170497609d75bb92922ec296c25e2449d",
-    "size": 591438811,
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-opencode1/arm64-v8a-full.7z"
+    "md5": "d021ff053bf35e44e72fa586f91a177d",
+    "sha256": "862e1eb0314c06d81ecb48fe0beac0e3aa87b538e824ca510062ccb27a870c34",
+    "size": 633199950,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-2118/arm64-v8a-full.7z"
   }
 }
