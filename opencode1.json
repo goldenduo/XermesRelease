@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 4,
+  "product": "opencode-android",
+  "runtime": {
+    "name": "OpenCode",
+    "version": "v1.18.21",
+    "architecture": "arm64-v8a",
+    "incrementalLayers": true
+  },
+  "layers": {
+    "lite": {
+      "rank": 0,
+      "requires": [
+        "ubuntu"
+      ],
+      "artifact": "lite.7z",
+      "features": [
+        "opencode-web",
+        "ssh",
+        "git",
+        "curl",
+        "jq",
+        "vim"
+      ]
+    },
+    "standard": {
+      "rank": 1,
+      "requires": [
+        "lite"
+      ],
+      "artifact": "standard.7z",
+      "features": [
+        "node",
+        "npm",
+        "mcp-core",
+        "playwright-api"
+      ]
+    },
+    "full": {
+      "rank": 2,
+      "requires": [
+        "standard"
+      ],
+      "artifact": "full.7z",
+      "features": [
+        "chromium",
+        "playwright-mcp",
+        "github-mcp",
+        "everything-mcp"
+      ]
+    }
+  },
+  "arm64-v8a-ubuntu.7z": {
+    "md5": "b91e8c4d3053e4dbe40b3a6b6aebc2cd",
+    "sha256": "01b2278c7380574c5707661c3653a2104e762653482211fe9e58d3a643a18626",
+    "size": 22069431,
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202608240912/arm64-v8a/ubuntu.7z"
+  },
+  "arm64-v8a-lite.7z": {
+    "md5": "3bb1172a9f1c65b2501071394c649006",
+    "sha256": "fee6d2408b52c3d460c0bec75d87e53368e8a13fc6e5819e230680d110bb3edb",
+    "size": 168538042,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-opencode1/arm64-v8a-lite.7z"
+  },
+  "arm64-v8a-standard.7z": {
+    "md5": "39fbec2a6e914fffc4239d26bf2c0941",
+    "sha256": "5b7e5919034fcc4dcf6d27066eb1d95264b4f455fcce4bd682f0e63c5ae17226",
+    "size": 262461168,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-opencode1/arm64-v8a-standard.7z"
+  },
+  "arm64-v8a-full.7z": {
+    "md5": "31ff9e2d870d49c8cc95716e79952a72",
+    "sha256": "90c5c121a8bffb9057b330822d0acbf170497609d75bb92922ec296c25e2449d",
+    "size": 591438811,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-opencode1/arm64-v8a-full.7z"
+  }
+}
