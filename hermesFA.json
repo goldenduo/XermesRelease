@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 3,
+  "layers": {
+    "lite": {
+      "rank": 0,
+      "requires": [
+        "ubuntu"
+      ],
+      "artifact": "lite.7z"
+    },
+    "standard": {
+      "rank": 1,
+      "requires": [
+        "lite"
+      ],
+      "artifact": "standard.7z"
+    },
+    "full": {
+      "rank": 2,
+      "requires": [
+        "standard"
+      ],
+      "artifact": "full.7z"
+    }
+  },
+  "arm64-v8a-ubuntu.7z": {
+    "md5": "06340dbfbba687546896a298e5ff0fc6",
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202608310046/arm64-v8a/ubuntu.7z"
+  },
+  "arm64-v8a-lite.7z": {
+    "md5": "d8d122ef73e899ec33fd0ea85098b81d",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.31-py312/arm64-v8a-lite.7z"
+  },
+  "arm64-v8a-standard.7z": {
+    "md5": "ffb48b024309a35978a90ec4af8103b7",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.31-py312/arm64-v8a-standard.7z"
+  },
+  "arm64-v8a-full.7z": {
+    "md5": "5ad0572ef51500b58d2d2236c6a42255",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.31-py312/arm64-v8a-full.7z"
+  }
+}
