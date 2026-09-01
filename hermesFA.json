@@ -28,8 +28,8 @@
     "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202608310046/arm64-v8a/ubuntu.7z"
   },
   "arm64-v8a-lite.7z": {
-    "md5": "dce18768e7f87fe54002b3c4e64ac569",
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.02-spa-nav/arm64-v8a-lite.7z"
+    "md5": "31f262c914ea63baff651d986108fea3",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.02-profile-api/arm64-v8a-lite.7z"
   },
   "arm64-v8a-standard.7z": {
     "md5": "ffb48b024309a35978a90ec4af8103b7",
