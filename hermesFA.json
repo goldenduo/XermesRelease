@@ -24,19 +24,19 @@
     }
   },
   "arm64-v8a-ubuntu.7z": {
-    "md5": "06340dbfbba687546896a298e5ff0fc6",
-    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202608310046/arm64-v8a/ubuntu.7z"
+    "md5": "cfe032903dca9a488af9e387814b4a34",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.02-model-startup/ubuntu.7z"
   },
   "arm64-v8a-lite.7z": {
-    "md5": "bdb002fba71697d5c752e0637409f285",
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.02-terminal-fit/arm64-v8a-lite.7z"
+    "md5": "a8516bd083c2fec9959186befe9c8426",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.02-model-startup/arm64-v8a-lite.7z"
   },
   "arm64-v8a-standard.7z": {
-    "md5": "ffb48b024309a35978a90ec4af8103b7",
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.31-py312/arm64-v8a-standard.7z"
+    "md5": "9db43267a2fca2d9c79065daf1c38814",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.02-model-startup/arm64-v8a-standard.7z"
   },
   "arm64-v8a-full.7z": {
-    "md5": "5ad0572ef51500b58d2d2236c6a42255",
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.31-py312/arm64-v8a-full.7z"
+    "md5": "7e5f577b53657b3e1cfd6566441f54af",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.02-model-startup/arm64-v8a-full.7z"
   }
 }
