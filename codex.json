@@ -4,9 +4,10 @@
   "runtime": {
     "name": "Codex + OpenChamber",
     "version": "0.154.0",
-    "webUiVersion": "1.23.1",
     "architecture": "arm64-v8a",
-    "incrementalLayers": true
+    "incrementalLayers": true,
+    "openChamberDelivery": "apk-asset",
+    "openChamberInstallPath": "/opt/openchamber"
   },
   "layers": {
     "lite": {
@@ -17,8 +18,8 @@
       "artifact": "lite.7z",
       "features": [
         "codex",
-        "web-ui",
         "node-22",
+        "openchamber-apk-asset",
         "cloudflare-quick-tunnel",
         "ssh",
         "git",
@@ -53,27 +54,27 @@
     }
   },
   "arm64-v8a-ubuntu.7z": {
-    "md5": "3b4454efa0b48dbece6708e5a461b24c",
-    "sha256": "74e960c47726dcc4f0c95e7fc0a5740285c1e3a6c093432e2ae67070a8a37398",
-    "size": 22069273,
-    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202609160816/arm64-v8a/ubuntu.7z"
+    "md5": "471348df3cae818f94d18f2bbf15a3bb",
+    "sha256": "2b3c66e0699a9134c4a9b0796566a3da4fb95e3d22e551853e1d425913abb0ee",
+    "size": 22069274,
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202609181516/arm64-v8a/ubuntu.7z"
   },
   "arm64-v8a-lite.7z": {
-    "md5": "9008683f2ce91c58f2653fe9d0ab545b",
-    "sha256": "491c7757b21451666521ee094df0eed89716c155cb9c106b653869ecd5627250",
-    "size": 288732090,
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.16-codex/arm64-v8a-lite.7z"
+    "md5": "55f7177a09f36c647dddc1ebe843ddb9",
+    "sha256": "f8452112ceea70f400a5353ab3b9531c32513258524b207349c3b0aa37a33ff4",
+    "size": 640702961,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.18-codex/arm64-v8a-lite.7z"
   },
   "arm64-v8a-standard.7z": {
-    "md5": "2950a2d5afe2f9a0069685366993e675",
-    "sha256": "011043f3689ec7eef897b5ec2dd669cf1448614e526f83208cab64b1ecead844",
-    "size": 304408348,
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.16-codex/arm64-v8a-standard.7z"
+    "md5": "574d656017f7fb908761b0b8e7d0c721",
+    "sha256": "345e3fa29bc6812d52840c927bc2ea3878cd61afc660997aa7b93bc04c0629eb",
+    "size": 657499477,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.18-codex/arm64-v8a-standard.7z"
   },
   "arm64-v8a-full.7z": {
-    "md5": "d021ff053bf35e44e72fa586f91a177d",
-    "sha256": "862e1eb0314c06d81ecb48fe0beac0e3aa87b538e824ca510062ccb27a870c34",
-    "size": 633199950,
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.16-codex/arm64-v8a-full.7z"
+    "md5": "e00343133b5466b69f0e3a1c3e60e927",
+    "sha256": "084a953ecd0bfe27fd10ec4b1814066336d2735810997531ed56060854d78e03",
+    "size": 986095713,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.09.18-codex/arm64-v8a-full.7z"
   }
 }
