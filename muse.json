@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "product": "muse-runtime",
+  "runtime": {
+    "id": "opencode",
+    "name": "OpenCode",
+    "version": "v1.18.32",
+    "architecture": "arm64-v8a",
+    "command": [
+      "opencode",
+      "acp"
+    ],
+    "authentication": "optional"
+  },
+  "source": {
+    "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.32/opencode-linux-arm64.tar.gz",
+    "sha256": "568461b7d4d8c19865c97e9a1102e613049c6039d01fe772154de873c1865840"
+  },
+  "rootfs": {
+    "distribution": "Ubuntu",
+    "version": "24.04",
+    "dockerImage": "arm64v8/ubuntu@sha256:11dc1ccb427f0464a2369e645454c272bb0baece7357c892ba69d313b3a332cf",
+    "releaseTag": "muse-opencode-v1.18.32",
+    "layers": [
+      {
+        "id": "ubuntu-base-arm64",
+        "kind": "rootfs",
+        "file": "muse-rootfs-base-arm64.tar.gz",
+        "url": "https://github.com/goldenduo/XermesRelease/releases/download/muse-opencode-v1.18.32/muse-rootfs-base-arm64.tar.gz",
+        "sha256": "d382a6c578ca742854a818ecee9438b0911b2bf8b095832ecc4b438c3ddc90f3",
+        "size": 28998352,
+        "format": "tar.gz"
+      },
+      {
+        "id": "opencode-arm64",
+        "kind": "runtime",
+        "version": "v1.18.32",
+        "file": "opencode-arm64-layer.tar.gz",
+        "url": "https://github.com/goldenduo/XermesRelease/releases/download/muse-opencode-v1.18.32/opencode-arm64-layer.tar.gz",
+        "sha256": "56717cb4722f65cb069c9cd50e2be582c379d8e3a889ae8ea97705e34e93077e",
+        "size": 62417823,
+        "format": "tar.gz"
+      }
+    ]
+  }
+}
