@@ -20,15 +20,15 @@
     "distribution": "Ubuntu",
     "version": "24.04",
     "dockerImage": "arm64v8/ubuntu@sha256:11dc1ccb427f0464a2369e645454c272bb0baece7357c892ba69d313b3a332cf",
-    "releaseTag": "muse-opencode-v1.18.32",
+    "releaseTag": "muse-opencode-v1.18.32-rootfs-beac70a0a755-56717cb4722f",
     "layers": [
       {
         "id": "ubuntu-base-arm64",
         "kind": "rootfs",
         "file": "muse-rootfs-base-arm64.tar.gz",
-        "url": "https://github.com/goldenduo/XermesRelease/releases/download/muse-opencode-v1.18.32/muse-rootfs-base-arm64.tar.gz",
-        "sha256": "d382a6c578ca742854a818ecee9438b0911b2bf8b095832ecc4b438c3ddc90f3",
-        "size": 28998352,
+        "url": "https://github.com/goldenduo/XermesRelease/releases/download/muse-opencode-v1.18.32-rootfs-beac70a0a755-56717cb4722f/muse-rootfs-base-arm64.tar.gz",
+        "sha256": "beac70a0a7551e43fecd7427a692199950811f3c746344a08e866ddd01475e78",
+        "size": 28998601,
         "format": "tar.gz"
       },
       {
@@ -36,7 +36,7 @@
         "kind": "runtime",
         "version": "v1.18.32",
         "file": "opencode-arm64-layer.tar.gz",
-        "url": "https://github.com/goldenduo/XermesRelease/releases/download/muse-opencode-v1.18.32/opencode-arm64-layer.tar.gz",
+        "url": "https://github.com/goldenduo/XermesRelease/releases/download/muse-opencode-v1.18.32-rootfs-beac70a0a755-56717cb4722f/opencode-arm64-layer.tar.gz",
         "sha256": "56717cb4722f65cb069c9cd50e2be582c379d8e3a889ae8ea97705e34e93077e",
         "size": 62417823,
         "format": "tar.gz"
