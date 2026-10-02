@@ -4,7 +4,7 @@
   "runtime": {
     "name": "OpenCode + Web UI",
     "version": "2.0.20",
-    "webUiVersion": "2.0.4",
+    "webUiVersion": "2.1.0",
     "architecture": "arm64-v8a",
     "incrementalLayers": true
   },
@@ -35,7 +35,7 @@
       "artifact": "openchamber.7z",
       "features": [
         "openchamber-web-ui",
-        "openchamber-version-2.0.4"
+        "openchamber-version-2.1.0"
       ]
     },
     "standard": {
@@ -93,9 +93,9 @@
     "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-2118/arm64-v8a-full.7z"
   },
   "arm64-v8a-openchamber.7z": {
-    "md5": "b1b0bc2d8a9373ab755366471f616a75",
-    "sha256": "446f39d8030669050302d6247d172fdb530f11ae3ebd55f15ecb0b7c2604add5",
-    "size": 467852483,
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.10.01-opencode5/arm64-v8a-openchamber.7z"
+    "md5": "c0c49bd8f5d05488d24dbd87124d96be",
+    "sha256": "6839713cbd0ffd75e33ffa45a22987d11bc158095a1148976f20a90e04c23875",
+    "size": 507471706,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.10.02-openchamber-2.1.0/arm64-v8a-openchamber.7z"
   }
 }
