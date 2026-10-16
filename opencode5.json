@@ -81,16 +81,29 @@
     "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.10.01-opencode5/arm64-v8a-lite.7z"
   },
   "arm64-v8a-standard.7z": {
-    "md5": "2950a2d5afe2f9a0069685366993e675",
-    "sha256": "011043f3689ec7eef897b5ec2dd669cf1448614e526f83208cab64b1ecead844",
-    "size": 304408348,
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-2118/arm64-v8a-standard.7z"
+    "md5": "c79404c8d9378b113bfe6227a179cdc5",
+    "sha256": "a7f503d716fd461035ae8b74ce022a348378dd91b767d992d2892ec80d7f4938",
+    "size": 11995549,
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202610161530/arm64-v8a/standard.7z",
+    "overlayFormat": 1,
+    "requiresSha256": {
+      "ubuntu": "b5926b374f5fa24ce6e199f0aeefce81420980efcde51e4578bcdc4071c1b432",
+      "lite": "67421a6cae072ca7034ff18bb419334bd9cd51c95df47178757734075a4d81a0",
+      "openchamber": "6839713cbd0ffd75e33ffa45a22987d11bc158095a1148976f20a90e04c23875"
+    }
   },
   "arm64-v8a-full.7z": {
-    "md5": "d021ff053bf35e44e72fa586f91a177d",
-    "sha256": "862e1eb0314c06d81ecb48fe0beac0e3aa87b538e824ca510062ccb27a870c34",
-    "size": 633199950,
-    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.08.24-2118/arm64-v8a-full.7z"
+    "md5": "f4887e3f1d95a3f5bcbf1ae3ebefbf6d",
+    "sha256": "9b1a2370effba8c1fef741bce49768786c6cc745a407e5275ef2179144ce2b0f",
+    "size": 223569080,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.10.16-high-layers/arm64-v8a-full.7z",
+    "overlayFormat": 1,
+    "requiresSha256": {
+      "ubuntu": "b5926b374f5fa24ce6e199f0aeefce81420980efcde51e4578bcdc4071c1b432",
+      "lite": "67421a6cae072ca7034ff18bb419334bd9cd51c95df47178757734075a4d81a0",
+      "openchamber": "6839713cbd0ffd75e33ffa45a22987d11bc158095a1148976f20a90e04c23875",
+      "standard": "a7f503d716fd461035ae8b74ce022a348378dd91b767d992d2892ec80d7f4938"
+    }
   },
   "arm64-v8a-openchamber.7z": {
     "md5": "c0c49bd8f5d05488d24dbd87124d96be",
