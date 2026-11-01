@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 3,
+  "layers": {
+    "lite": {
+      "rank": 0,
+      "requires": [
+        "ubuntu"
+      ],
+      "artifact": "lite.7z"
+    },
+    "standard": {
+      "rank": 1,
+      "requires": [
+        "lite"
+      ],
+      "artifact": "standard.7z"
+    },
+    "full": {
+      "rank": 2,
+      "requires": [
+        "standard"
+      ],
+      "artifact": "full.7z"
+    }
+  },
+  "arm64-v8a-ubuntu.7z": {
+    "md5": "cb1b0fdeddf42f751e0889366baa479f",
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202611011138/arm64-v8a/ubuntu.7z"
+  },
+  "arm64-v8a-lite.7z": {
+    "md5": "597d2594d249f360babc0fe1208f041e",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/tui1101-hermes-v0.22.5/arm64-v8a-lite.7z"
+  },
+  "arm64-v8a-standard.7z": {
+    "md5": "2bbaac233047794b82d4eee30a2b6cf9",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/tui1101-hermes-v0.22.5/arm64-v8a-standard.7z"
+  },
+  "arm64-v8a-full.7z": {
+    "md5": "604adb94b21f21533dfb56cbbc799bb3",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/tui1101-hermes-v0.22.5/arm64-v8a-full.7z"
+  },
+  "x86_64-ubuntu.7z": {
+    "md5": "b0ad612774587536330b4be5e36e365d",
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202608061638/x86_64/ubuntu.7z"
+  },
+  "hermesAgent": {
+    "version": "0.22.5",
+    "tag": "v0.22.5",
+    "artifact": "hermes-agent.7z",
+    "md5": "d820712a839e2385d0cdd58151f27be7",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/tui1101-hermes-v0.22.5/arm64-v8a-hermes-agent.7z"
+  },
+  "arm64-v8a-hermes-agent.7z": {
+    "md5": "d820712a839e2385d0cdd58151f27be7",
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/tui1101-hermes-v0.22.5/arm64-v8a-hermes-agent.7z",
+    "version": "0.22.5",
+    "tag": "v0.22.5"
+  }
+}
