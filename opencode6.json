@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 5,
+  "product": "opencode-android",
+  "runtime": {
+    "name": "OpenCode + Web UI",
+    "version": "2.0.20",
+    "webUiVersion": "2.1.0",
+    "architecture": "arm64-v8a",
+    "incrementalLayers": true,
+    "isolatedAppRuntime": true,
+    "nodeVersion": "v22.23.2",
+    "appRuntimePrefix": "/opt/opencode-runtime",
+    "minimumAndroidVersionCode": 28
+  },
+  "layers": {
+    "lite": {
+      "rank": 0,
+      "requires": [
+        "ubuntu"
+      ],
+      "artifact": "lite.7z",
+      "features": [
+        "opencode",
+        "node-22",
+        "cloudflare-quick-tunnel",
+        "ssh",
+        "git",
+        "curl",
+        "jq",
+        "vim",
+        "isolated-app-runtime"
+      ]
+    },
+    "openchamber": {
+      "rank": 1,
+      "requires": [
+        "ubuntu",
+        "lite"
+      ],
+      "artifact": "openchamber.7z",
+      "features": [
+        "openchamber-web-ui",
+        "openchamber-version-2.1.0",
+        "isolated-app-runtime"
+      ]
+    },
+    "standard": {
+      "rank": 2,
+      "requires": [
+        "ubuntu",
+        "lite",
+        "openchamber"
+      ],
+      "artifact": "standard.7z",
+      "features": [
+        "mcp-core",
+        "playwright-api"
+      ]
+    },
+    "full": {
+      "rank": 3,
+      "requires": [
+        "ubuntu",
+        "lite",
+        "openchamber",
+        "standard"
+      ],
+      "artifact": "full.7z",
+      "features": [
+        "chromium",
+        "playwright-mcp",
+        "github-mcp",
+        "everything-mcp"
+      ]
+    }
+  },
+  "arm64-v8a-ubuntu.7z": {
+    "md5": "558e03497e315be8d9decd3c5783808d",
+    "sha256": "b5926b374f5fa24ce6e199f0aeefce81420980efcde51e4578bcdc4071c1b432",
+    "size": 22069266,
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202609210006/arm64-v8a/ubuntu.7z"
+  },
+  "arm64-v8a-lite.7z": {
+    "md5": "1b111d72edeb5140665ee2e81ebda44a",
+    "sha256": "8ec3049533b974178f353a31c6bc49cad6c7b165964a042ac6b19bfa24b9ba7d",
+    "size": 696914959,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.11.06-opencode6-isolated-node/arm64-v8a-lite.7z"
+  },
+  "arm64-v8a-standard.7z": {
+    "md5": "c79404c8d9378b113bfe6227a179cdc5",
+    "sha256": "a7f503d716fd461035ae8b74ce022a348378dd91b767d992d2892ec80d7f4938",
+    "size": 11995549,
+    "url": "https://raw.githubusercontent.com/goldenduo/XermesRelease/master/202610161530/arm64-v8a/standard.7z",
+    "overlayFormat": 1,
+    "requiresSha256": {
+      "ubuntu": "b5926b374f5fa24ce6e199f0aeefce81420980efcde51e4578bcdc4071c1b432",
+      "lite": "8ec3049533b974178f353a31c6bc49cad6c7b165964a042ac6b19bfa24b9ba7d",
+      "openchamber": "c21a74a3b37acfd3382b1d9cf56c8c3eb3cf510e8803036136858fafde238077"
+    }
+  },
+  "arm64-v8a-full.7z": {
+    "md5": "f4887e3f1d95a3f5bcbf1ae3ebefbf6d",
+    "sha256": "9b1a2370effba8c1fef741bce49768786c6cc745a407e5275ef2179144ce2b0f",
+    "size": 223569080,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.10.16-high-layers/arm64-v8a-full.7z",
+    "overlayFormat": 1,
+    "requiresSha256": {
+      "ubuntu": "b5926b374f5fa24ce6e199f0aeefce81420980efcde51e4578bcdc4071c1b432",
+      "lite": "8ec3049533b974178f353a31c6bc49cad6c7b165964a042ac6b19bfa24b9ba7d",
+      "openchamber": "c21a74a3b37acfd3382b1d9cf56c8c3eb3cf510e8803036136858fafde238077",
+      "standard": "a7f503d716fd461035ae8b74ce022a348378dd91b767d992d2892ec80d7f4938"
+    }
+  },
+  "arm64-v8a-openchamber.7z": {
+    "md5": "4e4b68d6cc9a56120368c08518e2f954",
+    "sha256": "c21a74a3b37acfd3382b1d9cf56c8c3eb3cf510e8803036136858fafde238077",
+    "size": 551943707,
+    "url": "https://github.com/goldenduo/XermesRelease/releases/download/v2026.11.06-opencode6-isolated-node/arm64-v8a-openchamber.7z"
+  }
+}
